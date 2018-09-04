@@ -1,0 +1,44 @@
+{
+  "name": "cat-js",
+  "version": "1.0.0",
+  "description": "Category theory basics in javascript",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest lib/",
+    "start": "node lib/index.js",
+    "build": "babel src/ --watch --out-dir lib/ --source-maps inline",
+    "lint": "eslint ./src",
+    "flow": "flow",
+    "fix-prettier": "prettier --write \"src/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogard/cat-js.git"
+  },
+  "keywords": [
+    "category theory",
+    "functional programming",
+    "javascript + flow"
+  ],
+  "author": "Drago Odalovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ogard/cat-js/issues"
+  },
+  "homepage": "https://github.com/ogard/cat-js#readme",
+  "dependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "flow-bin": "^0.80.0",
+    "jest": "^23.5.0",
+    "prettier": "^1.14.2"
+  }
+}

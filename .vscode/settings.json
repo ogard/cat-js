@@ -1,0 +1,21 @@
+{
+  "editor.renderWhitespace": "boundary",
+  "flow.useNPMPackagedFlow": true,
+  "flow.runOnEdit": false,
+  "flow.useLSP": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  },
+  "editor.formatOnSave": false,
+  "[javascript]": {
+      "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  }
+}
